@@ -2,3 +2,4 @@ argoNamespace: argocd
 repoURL: https://github.com/TheCodingSheikh/my-gitops
 projects:
   - project-1
+  - project-2
