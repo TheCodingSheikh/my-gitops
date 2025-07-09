@@ -68,6 +68,7 @@ spec:
             maxDuration: 20s
         syncOptions:
         - CreateNamespace=true
+        - SkipDryRunOnMissingResource=true
   templatePatch: |
     metadata:
       labels:
