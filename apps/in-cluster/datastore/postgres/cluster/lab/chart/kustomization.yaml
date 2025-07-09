@@ -6,3 +6,4 @@ helmCharts:
   repo: https://thecodingsheikh.github.io/helm-charts
   version: 5.7.4
   valuesFile: values.yaml
+  namespace: postgres-cluster
