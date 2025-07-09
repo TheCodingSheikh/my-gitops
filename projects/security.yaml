@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: PruneLast=true
     argocd.argoproj.io/sync-wave: "-2"
-  name: platform
+  name: security
   namespace: argocd
 spec:
   clusterResourceWhitelist:
@@ -25,7 +25,7 @@ kind: ApplicationSet
 metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "0"
-  name: platform
+  name: security
   namespace: argocd
 spec:
   goTemplate: true
@@ -36,7 +36,7 @@ spec:
         revision: "HEAD"
         requeueAfterSeconds: 20
         files:
-          - path: "apps/*/platform/**/config.yaml"
+          - path: "apps/*/security/**/config.yaml"
         values:
           cluster: "{{index .path.segments 1}}"
           project: "{{index .path.segments 2}}"
