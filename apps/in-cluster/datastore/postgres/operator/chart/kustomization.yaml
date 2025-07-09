@@ -10,3 +10,6 @@ helmCharts:
   releaseName: pgo
   includeCRDs: true
   namespace: postgres-operator
+
+patchesStrategicMerge:
+  - patch-crd.yaml
