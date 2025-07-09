@@ -8,3 +8,6 @@ helmCharts:
   includeCRDs: true
   namespace: kyverno
   releaseName: kyverno
+
+patchesStrategicMerge:
+  - patch-crd.yaml
