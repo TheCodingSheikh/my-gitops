@@ -7,3 +7,4 @@ helmCharts:
   version: 4.12.0
   namespace: ingress-nginx
   releaseName: ingress-nginx
+  valuesFile: values.yaml
