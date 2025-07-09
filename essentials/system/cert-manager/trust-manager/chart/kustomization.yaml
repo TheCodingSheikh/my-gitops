@@ -5,3 +5,4 @@ helmCharts:
 - name: trust-manager
   repo: https://charts.jetstack.io
   version: v0.3.0
+  includeCRDs: true

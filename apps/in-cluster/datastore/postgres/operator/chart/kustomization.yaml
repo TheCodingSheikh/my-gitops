@@ -5,3 +5,4 @@ helmCharts:
 - name: pgo
   repo: oci://registry.developers.crunchydata.com/crunchydata
   version: 5.7.4
+  includeCRDs: true
