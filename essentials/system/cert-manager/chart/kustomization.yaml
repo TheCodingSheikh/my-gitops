@@ -7,3 +7,4 @@ helmCharts:
   version: v1.14.0
   includeCRDs: true
   namespace: cert-manager
+  releaseName: cert-manager
