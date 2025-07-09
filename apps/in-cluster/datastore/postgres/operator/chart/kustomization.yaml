@@ -6,3 +6,4 @@ helmCharts:
   repo: oci://registry.developers.crunchydata.com/crunchydata
   version: 5.7.4
   includeCRDs: true
+  namespace: postgres-operator
